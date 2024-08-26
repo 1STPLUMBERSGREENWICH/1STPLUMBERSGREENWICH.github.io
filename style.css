@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.content-wrapper {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Section Styles */
+.hero-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.service-overview, .services, .emergency-services, .additional-services, .faq, .why-choose-us {
+    margin-bottom: 40px;
+}
+
+.why-choose-us ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 10px;
+    }
+}
